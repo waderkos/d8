@@ -1,0 +1,38 @@
+uuid: 2da929b6-8713-4c35-81fd-bfc797a02c9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_with_pdf
+    - field.field.block_content.block_with_pdf.body
+    - field.field.block_content.block_with_pdf.field_pdf
+  module:
+    - file
+    - text
+id: block_content.block_with_pdf.default
+targetEntityType: block_content
+bundle: block_with_pdf
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 0
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_pdf:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+  info:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

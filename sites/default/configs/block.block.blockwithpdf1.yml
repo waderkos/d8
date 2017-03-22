@@ -1,0 +1,25 @@
+uuid: 13d4074f-f187-48e0-861e-0149c8a06f95
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_with_pdf:e94b3bae-38e2-4f25-b436-52a18e365611'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: blockwithpdf1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:e94b3bae-38e2-4f25-b436-52a18e365611'
+settings:
+  id: 'block_content:e94b3bae-38e2-4f25-b436-52a18e365611'
+  label: Books
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 79a19fcc-02cd-4eb7-aa3c-4b73b211bcb4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_with_pdf
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.block_with_pdf.body
+field_name: body
+entity_type: block_content
+bundle: block_with_pdf
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary
