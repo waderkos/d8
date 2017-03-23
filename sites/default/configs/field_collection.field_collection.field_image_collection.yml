@@ -1,0 +1,6 @@
+uuid: 6c0b0f9e-1e55-4eb0-908b-18f321a57049
+langcode: en
+status: true
+dependencies: {  }
+id: field_image_collection
+label: field_image_collection

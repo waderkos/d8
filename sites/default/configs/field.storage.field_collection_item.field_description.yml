@@ -1,0 +1,19 @@
+uuid: 98e9e0a0-dc56-46b6-9def-78425bb580fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_collection
+    - text
+id: field_collection_item.field_description
+field_name: field_description
+entity_type: field_collection_item
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
